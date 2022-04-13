@@ -1,0 +1,139 @@
+body{
+    background-color: #8ba1bb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.category{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.category{
+    text-align: center;
+    margin-bottom: -18px;
+}
+
+.content{
+    background-color: white;
+    margin: 0px 10% 80px 10%;
+    padding: 30px;
+    min-width: 350px;
+    overflow: auto;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+p.desc{
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.desc_div{
+    text-align: center;
+}
+
+div.separator{
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width: 100%;
+    display: block;
+    max-height: 400px;
+    object-fit: cover ;
+}
+
+div.content__img{
+    position: relative;
+}
+
+div.content__img table{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #6c8290;
+    height: 80px;
+    opacity: .69;
+}
+
+div.content__img table td{
+    text-align: center;
+    vertical-align: top;
+    font-size: 14px;
+}
+
+div.content__img table th{
+    vertical-align: bottom;
+    padding-bottom: 8px;
+}
+
+div.collumn-1, div.collumn-2{
+    width: 45%;
+    margin-top: 20px;
+}
+
+div.collumn-1{
+    display: inline-block;
+}
+
+div.collumn-2{
+    float: right;
+}
+
+div.collumn-1 h2, div.collumn-2 h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6c8290;
+    padding-bottom: 5px;
+}
+
+
+div.ingredients p{
+    text-align: center;
+    border: 1px solid lightgrey;
+    font-size: 14px;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+div.collumn-2 table p.number{
+    background-color: #6c8290;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+div.collumn-2 table td.inst-steps{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 14p;
+}
+
+div.collumn-2 table{
+    vertical-align: top;
+}
+
